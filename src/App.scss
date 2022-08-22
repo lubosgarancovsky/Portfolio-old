@@ -1,0 +1,31 @@
+@import './styles/index.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: $background;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(187, 97, 97);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}
+
+.App{
+    color: $light-text;
+}

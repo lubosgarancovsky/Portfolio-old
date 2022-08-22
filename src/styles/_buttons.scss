@@ -1,0 +1,129 @@
+.primary-btn{
+    display: flex;
+    width: fit-content;
+    border-radius: 10rem;
+    border: 1px solid $dark-text;
+    margin: 3rem 0 0 0;
+    position: relative;
+    overflow: hidden;
+    padding:0.5rem;
+    transition: 150ms ease-in;
+
+
+
+
+    &:hover{
+        background-color: $background;
+        border: 1px solid $light-text;
+        a{
+            color: $light-text;
+        }
+        img{
+            filter: brightness(0) saturate(100%) invert(96%) sepia(1%) saturate(19%) hue-rotate(314deg) brightness(93%) contrast(86%);
+        }
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 2rem;
+        color:$dark-text;
+        background:transparent;
+        font-size: max(1.2rem, 1.3vw);
+        z-index: 2;
+
+        img{
+            width: max(1.2rem, 1.3vw);;
+            padding-left: 1rem;
+        }
+    }
+}
+
+
+.light{
+    border: 1px solid $light-text;
+    a{
+        color: $light-text;
+    }
+
+    img{
+        filter: brightness(0) saturate(100%) invert(85%) sepia(8%) saturate(0%) hue-rotate(21deg) brightness(89%) contrast(99%);
+    }
+}
+
+.backBtn{
+    border: 2px solid $light-text;
+    width: fit-content;
+    padding: max(0.5rem, 0.5vw);
+    border-radius: max(0.5rem, .5vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max(2rem, 2vw);
+    height: max(2rem, 2vw);
+    position: relative;
+    overflow: hidden;
+    margin: max(1rem, 1vw);
+
+    .arrow-w{
+        display: flex;
+        transition: 250ms ease-in;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 200%;
+        height: 100%;
+        justify-content: space-around;
+    }
+    img{
+        width: max(2rem, 2vw);
+        filter: brightness(0) saturate(100%) invert(73%) sepia(0%) saturate(0%) hue-rotate(340deg) brightness(102%) contrast(103%);
+    }
+
+    &:hover .arrow-w{
+        transform: translate(-50%, 0);
+    }
+}
+
+.Btn{
+    border: 2px solid $light-text;
+    width: fit-content;
+    padding: max(0.5rem, 0.5vw);
+    border-radius: max(0.5rem, .5vw);
+    img{
+        width: max(2rem, 2vw);
+        filter: brightness(0) saturate(100%) invert(73%) sepia(0%) saturate(0%) hue-rotate(340deg) brightness(102%) contrast(103%);
+    }
+}
+
+.skillset-trigger{
+    display: flex;
+    width: fit-content;
+    border-radius: 10rem;
+    border: none;
+    margin: 3rem 0 0 0;
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2.5rem;
+    color:$dark-text;
+    background:transparent;
+    font-size: max(1.2rem, 1.3vw);
+    transition: 150ms ease-in;
+
+    &:hover{
+        color:$third;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .primary-btn{
+        margin: 2rem auto;
+        font-size: 1.5rem;
+    }
+
+    .projectpage-header{
+        .backBtn{
+            display: none;
+        }
+    }
+}

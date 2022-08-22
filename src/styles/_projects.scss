@@ -1,0 +1,76 @@
+.big-project{
+    width: 80vw;
+    height: 80vh;
+    margin: 2rem 0;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    border-radius: 10px;
+    color:white;
+    transform-style: preserve-3d;
+
+
+    .project-desc{
+        margin: 4rem;
+        transform: translateZ(2.5rem);
+        max-width: 20rem;
+        h2{
+            font-size: max(3vw, 2.8rem);
+            font-weight: 700;
+        }
+        h3{
+            font-size: max(2vw, 2rem);
+            font-weight: 600;
+            padding-bottom: 1rem;
+        }
+        h4{
+            font-size:  max(2vw, 2rem);
+            font-weight: 400;
+        }
+        p{
+            font-size:  max(1.2vw, 1rem);
+        }
+
+        
+    }
+
+    .pr-header{
+        padding-bottom: 4rem;
+    }
+
+    .pr-bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:1.5rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .big-project{
+        width: 90vw;
+        height: 40vh;
+    
+        .project-desc{
+            margin:2rem;
+        }
+    
+        .pr-header{
+            padding-bottom: 0;
+        }
+    
+        .pr-bottom{
+            display: none;
+        }
+    }
+    
+}
+

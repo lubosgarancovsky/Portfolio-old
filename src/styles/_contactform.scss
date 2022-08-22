@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin:0 auto;
+    button{
+        padding: 1rem 2rem;
+        background-color: $primary;
+        font-size: max(1rem, 1vw);
+        font-weight: 600;
+        width: 50%;
+        margin-top: 2rem;
+        border: none;
+        transition: 150ms ease-in;
+
+        &:hover{
+            transform: rotate(5deg);
+        }
+    }
+}
+
+input, textarea{
+    background-color: #1E1E1E;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1rem 0;
+    padding: max(1rem, 1vw);
+    color:$light-text;
+    font-family: 'Raleway';
+    font-size: max(1rem, 1vw);
+    resize: none;
+}
+
+@media only screen and (max-width: 800px){
+    form{
+        button{
+            width: 100%;
+        }
+    }
+}

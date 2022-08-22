@@ -1,0 +1,136 @@
+.projectpage{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+.projectpage-header{
+    width: 90vw;
+    height: 80vh;
+    margin: max(1rem, 1vw) auto;
+    background-position: center;
+    background-size: cover;
+    padding: max(1rem, 1vw);
+    display: flex;
+    border-radius: max(2rem, 2vw);
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    position: relative;
+    .buttons{
+        display: flex;
+        align-self: flex-end;
+        margin-right: 1rem;
+        .primary-btn{
+            margin-right: 1rem;
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+.projectpage-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em 2em;
+    position: relative;
+}
+
+.projectpage-description{
+    width:50vw;
+    h2{
+        font-weight: 600;
+        text-transform: none;
+        font-size: max(1.2rem, 2.5vw);
+    }
+    p{
+        line-height: 1.6em;
+        padding-top: 2em;
+        font-size: max(1rem, 1.2vw);
+    }
+}
+
+.technologies{
+    margin: 1em 0 0 0;
+}
+
+.technology-capsule{
+    padding: 0.5em 1.5em;
+    background-color: $primary;
+    color: $dark-text;
+    border-radius: 5em;
+    margin: 0.5em 1em 0 0;
+    font-weight: 500;
+    width: fit-content;
+    display: inline-block;
+    font-size: max(0.8rem, 1vw);
+}
+.bottom-buttons{
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: $background;
+    overflow: hidden;
+    top:0;left:0;
+    z-index:20;
+    padding: 1rem 0;
+    display: none;
+    div{
+        margin: auto;
+    }
+
+}
+
+.project-pictures{
+    padding:10em 0;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    img{
+        display: inline-block;
+        max-width: 100%;
+        transition: 150ms ease-in;
+
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+}
+
+@media only screen and (max-width:920px){
+    .bottom-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-content{
+        .buttons{
+            display: none;
+           
+        }
+    }
+
+    .projectpage-header{
+        width: 100%;
+        height: 30vh;
+        margin: 0;
+        border-radius: 0;
+    }
+    .back-button{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .projectpage-description{
+        width:fit-content;
+        padding: 0 5vw;
+    }
+}

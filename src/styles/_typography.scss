@@ -1,0 +1,38 @@
+.serif{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
+html {
+    font-size: 100%;
+    color: $light-text;
+}
+
+h1 {
+    font-size: max(6rem, 20vw);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: max(1.2rem, 1vw);
+    position: relative;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+}

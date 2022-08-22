@@ -1,0 +1,60 @@
+.cursor{
+    z-index: 1000;
+    border-radius: 50%;
+    padding:max(5px, 0.5vw);
+    background-color: white;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    mix-blend-mode: exclusion;
+    transition: 250ms  padding;
+}
+
+.link-hover{
+    padding:max(20px, 1vw) !important;
+}
+
+.explore-hover{
+    mix-blend-mode: normal;
+    background-color:rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    padding: max(100px, 5vw) !important;
+    transition: 250ms  padding;
+    backdrop-filter: blur(3px);
+
+
+    &::before{
+        content: 'Explore';
+        color:white;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: max(2rem, 1.6vw);
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.drag-hover{
+    mix-blend-mode: normal;
+    background-color: #bb8d8d2f;
+    border: 2px solid $third;
+    padding: max(50px, 3vw) !important;
+    transition: 250ms  padding;
+    backdrop-filter: blur(3px);
+
+
+    &::before{
+        content: 'Drag';
+        color:$third;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        font-size: max(1.2rem, 1.5vw);
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+@media (hover: none) {
+    .cursor{
+        display: none;
+    }
+}
