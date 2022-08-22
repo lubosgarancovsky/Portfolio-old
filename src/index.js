@@ -15,14 +15,14 @@ import { Eshop } from './routes/eshop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <ScrollToTop />
     <Routes>
-      <Route path="/" element={ <App />}></Route>
-      <Route path="/project" element={<LifeSim />}></Route>
-      <Route path="/mysimplenotes" element={<Notes />}></Route>
-      <Route path="/collegesearch" element={<CollegeSearch />}></Route>
-      <Route path="/eshop" element={<Eshop />}></Route>
+      <Route exact path="/" element={ <App />}></Route>
+      <Route exact path="/project" element={<LifeSim />}></Route>
+      <Route exact path="/mysimplenotes" element={<Notes />}></Route>
+      <Route exact path="/collegesearch" element={<CollegeSearch />}></Route>
+      <Route exact path="/eshop" element={<Eshop />}></Route>
     </Routes>
   </Router>
 );

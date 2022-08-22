@@ -342,11 +342,16 @@
     overflow-x: hidden;
     background-color: $background;
     margin-top: max(5rem, 5vw);
-    p{
+    a{
         display: flex;
+        text-decoration: none;
         align-items: center;
+        color: $light-text;
         padding: max(0.3rem, 0.3vw) 0;
         font-size: max(1.2rem, 1.2vw);
+        &:hover{
+            color:white;
+        }
     }
     img{
         width: max(1.5rem, 1.5vw);

@@ -22,10 +22,10 @@ export function Approach() {
                             <Fade dirrection={'left'}>
                                 <Card img={paint} title="Design">
                                     <p>
-                                        It is not easy to come with a good and original
-                                        idea that has a little bit of a “wow effect”, but
+                                        It is not easy to come up with a good and original
+                                        idea that has a little bit of “wow effect”, but
                                         with a pinch of imagination and inspiration i always
-                                        deliver a beautiful and responsive product.
+                                        deliver a beautiful product.
                                         I like giving a website its own identity and style, that separates it
                                         from the others.
                                     </p>
@@ -51,7 +51,7 @@ export function Approach() {
                                         Many times I have been under the pressure of a deadline
                                         I simply had to meet. I leart to work efficiently with
                                         the time of mine, and of the others. Loving what I do also makes
-                                        my time and work managment much stronger.
+                                        my time and work managment much better.
                                     </p>
                                 </Card>
                             </Fade>
