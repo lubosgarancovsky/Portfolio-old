@@ -6,10 +6,10 @@ import { BackBtn } from '../components/backbtn'
 import { GitBtn } from '../components/gitbtn'
 import Button from '../components/button'
 
-import background from '../assets/notes.png'
+import background from '../assets/notes.webp'
 
-import notes1 from '../assets/notes1.jpg'
-import notes2 from '../assets/notes2.jpg'
+import notes1 from '../assets/notes1.webp'
+import notes2 from '../assets/notes2.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'

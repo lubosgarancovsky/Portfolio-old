@@ -4,10 +4,10 @@ import {Button} from '../components/button'
 import {Fade} from '../animations/fade'
 
 
-import lifesim from '../assets/lifesim.png';
-import notes from '../assets/notes.png';
-import college from '../assets/college.png';
-import eshop from '../assets/eshop.png';
+import lifesim from '../assets/lifesim.webp';
+import notes from '../assets/notes.webp';
+import college from '../assets/college.webp';
+import eshop from '../assets/eshop.webp';
 import github from '../assets/icons/github.svg';
 
 import { Link } from "react-router-dom";

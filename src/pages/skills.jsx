@@ -64,10 +64,7 @@ export function Skills() {
                         <img src={react} alt="icon" />
                         <h4>React</h4>
                     </div>
-                    <div className='skillicon'>
-                        <img src={node} alt="icon" />
-                        <h4>Node.js</h4>
-                    </div>
+
                     <div className='skillicon'>
                         <img src={js} alt="icon" />
                         <h4>JavaScript</h4>

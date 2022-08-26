@@ -101,9 +101,9 @@ export function Menu() {
                         >
                             <div className='bottom'>
                                 <ul>
-                                    <a href="https://twitter.com/LGarancovsky" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={twitter} /></a>
-                                    <a href="https://github.com/lubosgarancovsky" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={git} /></a>
-                                    <a href="https://www.linkedin.com/in/%C4%BEubo%C5%A1-garan%C4%8Dovsk%C3%BD-89a643249/" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={linkedin} /></a>
+                                    <a href="https://twitter.com/LGarancovsky" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={twitter} alt='twitter-icon'/></a>
+                                    <a href="https://github.com/lubosgarancovsky" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={git} alt='github-icon'/></a>
+                                    <a href="https://www.linkedin.com/in/%C4%BEubo%C5%A1-garan%C4%8Dovsk%C3%BD-89a643249/" target="_blank" onMouseEnter={handleHover} onMouseLeave={handleLeave} ><img src={linkedin} alt='linkedin-icon'/></a>
                                 </ul>
                             </div>
                         </motion.div>

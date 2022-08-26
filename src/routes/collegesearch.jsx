@@ -7,9 +7,9 @@ import { GitBtn } from '../components/gitbtn'
 import { LinkBtn } from '../components/linkbtn'
 import Button from '../components/button'
 
-import background from '../assets/college.png'
+import background from '../assets/college.webp'
 
-import college1 from '../assets/college_1.png'
+import college1 from '../assets/college_1.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'

@@ -6,10 +6,10 @@ import { BackBtn } from '../components/backbtn'
 import { GitBtn } from '../components/gitbtn'
 import Button from '../components/button'
 
-import background from '../assets/lifesim.png'
+import background from '../assets/lifesim.webp'
 
-import lifesim1 from '../assets/lifesim1.png'
-import lifesim2 from '../assets/lifesim2.png'
+import lifesim1 from '../assets/lifesim1.webp'
+import lifesim2 from '../assets/lifesim2.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'

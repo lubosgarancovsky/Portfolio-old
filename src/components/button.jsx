@@ -8,7 +8,7 @@ export const Button = (props) => {
             <a href={props.link} target={props.target}>
                 {props.text}
 
-                <img src={props.img}></img>
+                <img src={props.img} alt='arrow-icon'></img>
 
             </a>
         </div>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Fade } from '../animations/fade'
-import foto from '../assets/foto.png';
+import foto from '../assets/foto.webp';
 import {motion, transform} from 'framer-motion'
 
 export function HomePage() {
@@ -26,7 +26,7 @@ export function HomePage() {
 
             <div className='homepic'>
                 <div className='pic-wrapper'>
-                    <img src={foto} />
+                    <img rel="preload" src={foto} alt="photo" />
                 </div>
             </div>
 

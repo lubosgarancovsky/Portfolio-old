@@ -7,10 +7,10 @@ import { GitBtn } from '../components/gitbtn'
 import { LinkBtn } from '../components/linkbtn'
 import Button from '../components/button'
 
-import background from '../assets/eshop.png'
+import background from '../assets/eshop.webp'
 
-import eshop1 from '../assets/E-shop-1.png'
-import eshop2 from '../assets/E-shop-2.png'
+import eshop1 from '../assets/E-shop_1.webp'
+import eshop2 from '../assets/E-shop_2.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'

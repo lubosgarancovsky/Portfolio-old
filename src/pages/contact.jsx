@@ -35,9 +35,9 @@ export function Contact() {
                         <p>...or you can find me on:</p>
                         <ul>
                             <a><img src={mail} />lubos.garancovsky@gmail.com</a>
-                            <a href='https://twitter.com/LGarancovsky' target="_blank"><img src={twitter} />@LGarancovsky</a>
-                            <a href='https://www.instagram.com/lubos.garancovsky/' target="_blank"><img src={ig} />@lubos.garancovsky</a>
-                            <a href='https://github.com/lubosgarancovsky' target="_blank"><img src={git} />lubosgarancovsky </a>
+                            <a href='https://twitter.com/LGarancovsky' target="_blank"><img src={twitter} alt='twitter-icon'/>@LGarancovsky</a>
+                            <a href='https://www.instagram.com/lubos.garancovsky/' target="_blank"><img src={ig} alt='ig-icon'/>@lubos.garancovsky</a>
+                            <a href='https://github.com/lubosgarancovsky' target="_blank"><img src={git} alt='git-icon'/>lubosgarancovsky </a>
                         </ul>
                         <div className='author'>
                             <div className='design'>
