@@ -8,6 +8,8 @@ import lifesim from '../assets/lifesim.webp';
 import notes from '../assets/notes.webp';
 import college from '../assets/college.webp';
 import eshop from '../assets/eshop.webp';
+import shoes from '../assets/shoes.webp';
+
 import github from '../assets/icons/github.svg';
 
 import { Link } from "react-router-dom";
@@ -25,15 +27,23 @@ export function Workpage() {
                 </div>
             </Fade>
             <div className='big-wrapper'>
+                <Link to='/plusshoes'>
+                    <ProjectBig number={"01-05"} title={"+Shoes"} year={"2022"} thumbnail={shoes}>
+                        <p>
+                            E-shop for shoes made with React and Redux
+                        </p>
+                    </ProjectBig>
+                </Link>
+
                 <Link to='/eshop'>
-                    <ProjectBig number={"01-04"} title={"E-shop"} year={"2022"} thumbnail={eshop}>
+                    <ProjectBig number={"02-05"} title={"E-shop"} year={"2022"} thumbnail={eshop}>
                         <p>
                             Simple eshop made with usage of useContext and session storage
                         </p>
                     </ProjectBig>
                 </Link>
                 <Link to='/collegesearch'>
-                    <ProjectBig number={"02-04"} title={"College search"}  year={"2022"} thumbnail={college}>
+                    <ProjectBig number={"03-05"} title={"College search"}  year={"2022"} thumbnail={college}>
                         <p>
                             Personal React project that fetches API of universities
                         </p>
@@ -41,7 +51,7 @@ export function Workpage() {
                 </Link>
 
                 <Link to='/project'>
-                    <ProjectBig number={"03-04"} title={"Life-Sim 2"} year={"2022"} thumbnail={lifesim}>
+                    <ProjectBig number={"04-05"} title={"Life-Sim 2"} year={"2022"} thumbnail={lifesim}>
                         <p>
                             Ecosystem simulation made in Python using PyGame library.
                         </p>
@@ -49,7 +59,7 @@ export function Workpage() {
                 </Link>
 
                 <Link to='/mysimplenotes'>
-                    <ProjectBig number={"04-04"} title={"My Simple Notes"} type={"Android app"} year={"2022"} thumbnail={notes}>
+                    <ProjectBig number={"05-05"} title={"My Simple Notes"} type={"Android app"} year={"2022"} thumbnail={notes}>
                         <p>
                             Note taking / task tracking android application.
                         </p>

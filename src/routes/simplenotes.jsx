@@ -30,7 +30,7 @@ export function Notes() {
                 <div className='projectpage-header' style={{ backgroundImage: `url(${background})` }}>
                     <div className='header-content'>
                         <div className='buttons'>
-                            <Button light link="https://github.com/lubosgarancovsky/LifeSim-2" text="GitHub"></Button>
+                            <Button light link="https://github.com/lubosgarancovsky/MySimpleNotes" text="GitHub"></Button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ export function Notes() {
                         </div>
 
                         <div>
-                            <GitBtn link="https://github.com/lubosgarancovsky/LifeSim-2" />
+                            <GitBtn link="https://github.com/lubosgarancovsky/MySimpleNotes" />
                         </div>
                     </div>
                     <div className='projectpage-description'>

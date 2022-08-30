@@ -29,7 +29,7 @@ export function Eshop() {
                     
                     <div className='header-content'>
                         <div className='buttons'>
-                            <Button  light target="_blank" link="https://github.com/lubosgarancovsky/CollegeSearch" text="GitHub"></Button>
+                            <Button  light target="_blank" link="https://github.com/lubosgarancovsky/eshop" text="GitHub"></Button>
                             <Button light target="_blank" link="https://lubosgarancovsky.github.io/eshop/" text="Visit"/>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export function Eshop() {
                         </div>
 
                         <div>
-                            <GitBtn link="https://github.com/lubosgarancovsky/CollegeSearch"/>
+                            <GitBtn link="https://github.com/lubosgarancovsky/eshop"/>
                         </div>
 
                         <div>
