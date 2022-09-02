@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1539a561.css",
-    "main.js": "/Portfolio/static/js/main.3df21c3f.js",
+    "main.css": "/Portfolio/static/css/main.33e9ed02.css",
+    "main.js": "/Portfolio/static/js/main.0a25655e.js",
+    "static/media/college_video.mp4": "/Portfolio/static/media/college_video.45c367bbcc2d0ef823cf.mp4",
+    "static/media/lifesim_video.mp4": "/Portfolio/static/media/lifesim_video.5dc50fbc5b4406165b71.mp4",
+    "static/media/shoes_video.mp4": "/Portfolio/static/media/shoes_video.eeaeddf5ee896f90fad3.mp4",
     "static/media/shoes.webp": "/Portfolio/static/media/shoes.b231b31d8e50273d2700.webp",
+    "static/media/notes_video.mp4": "/Portfolio/static/media/notes_video.6343affdca3e6869d275.mp4",
+    "static/media/eshop_video.mp4": "/Portfolio/static/media/eshop_video.164c0430f43e3f55951a.mp4",
     "static/media/noise.gif": "/Portfolio/static/media/noise.93fe26ae97a4df3d4e67.gif",
     "static/media/shoes_1.webp": "/Portfolio/static/media/shoes_1.fc4f7e5bffb0b68bd8cd.webp",
     "static/media/fotka.webp": "/Portfolio/static/media/fotka.733bf9ae74fc169b226b.webp",
@@ -45,11 +50,11 @@
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.b2aeca0a2d0eb3ad6138f309873f745a.svg",
     "static/media/cpp.svg": "/Portfolio/static/media/cpp.623fc122dc8e193c8cf13a96e8f5e048.svg",
     "static/media/arrow2.svg": "/Portfolio/static/media/arrow2.f68a5f59f54c0a162221605c388d6640.svg",
-    "main.1539a561.css.map": "/Portfolio/static/css/main.1539a561.css.map",
-    "main.3df21c3f.js.map": "/Portfolio/static/js/main.3df21c3f.js.map"
+    "main.33e9ed02.css.map": "/Portfolio/static/css/main.33e9ed02.css.map",
+    "main.0a25655e.js.map": "/Portfolio/static/js/main.0a25655e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1539a561.css",
-    "static/js/main.3df21c3f.js"
+    "static/css/main.33e9ed02.css",
+    "static/js/main.0a25655e.js"
   ]
 }
