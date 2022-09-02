@@ -11,8 +11,10 @@ import background from '../assets/shoes.webp'
 
 import shoes1 from '../assets/shoes_1.webp'
 
-import {Fade} from '../animations/fade'
-import {SizeUp} from '../animations/sizeup'
+import { Fade } from '../animations/fade'
+import { SizeUp } from '../animations/sizeup'
+
+import video from '../assets/shoes_video.mp4'
 
 export function PlusShoes() {
 
@@ -25,11 +27,21 @@ export function PlusShoes() {
                     <BackBtn />
                 </div>
                 <div className='projectpage-header' style={{ backgroundImage: `url(${background})` }}>
-                    
+                    <div className="video-wrapper-2"
+                        style={{
+                            background: "rgb(220,70,232)",
+                            background: "linear-gradient(39deg, rgba(220,70,232,1) 0%, rgba(219,70,231,1) 100%)",
+                        }}
+                    >
+                        <video autoPlay loop muted className='background-video-3'>
+                            <source src={video} type="video/mp4"></source>
+                            Your browser does not support video tag.
+                        </video>
+                    </div>
                     <div className='header-content'>
                         <div className='buttons'>
-                            <Button  light target="_blank" link="https://github.com/lubosgarancovsky/PlusShoes" text="GitHub"></Button>
-                            <Button light target="_blank" link="https://lubosgarancovsky.github.io/PlusShoes/" text="Visit"/>
+                            <Button light target="_blank" link="https://github.com/lubosgarancovsky/PlusShoes" text="GitHub"></Button>
+                            <Button light target="_blank" link="https://lubosgarancovsky.github.io/PlusShoes/" text="Visit" />
                         </div>
                     </div>
                 </div>
@@ -41,18 +53,18 @@ export function PlusShoes() {
                         </div>
 
                         <div>
-                            <GitBtn link="https://github.com/lubosgarancovsky/PlusShoes"/>
+                            <GitBtn link="https://github.com/lubosgarancovsky/PlusShoes" />
                         </div>
 
                         <div>
-                            <LinkBtn link="https://lubosgarancovsky.github.io/PlusShoes/"/>
+                            <LinkBtn link="https://lubosgarancovsky.github.io/PlusShoes/" />
                         </div>
                     </div>
                     <div className='projectpage-description'>
                         <Fade>
                             <h2>+Shoes</h2>
                         </Fade>
-                        
+
 
                         <Fade>
                             <p>
@@ -84,29 +96,29 @@ export function PlusShoes() {
 
                         <Fade>
                             <div className='technologies'>
-                                    <div className='technology-capsule'>
-                                        React
-                                    </div>
+                                <div className='technology-capsule'>
+                                    React
+                                </div>
 
-                                    <div className='technology-capsule'>
-                                        Redux
-                                    </div>
+                                <div className='technology-capsule'>
+                                    Redux
+                                </div>
 
 
-                                
-                                    <div className='technology-capsule'>
-                                        JavaScript
-                                    </div>
 
-                                    <div className='technology-capsule'>
-                                        Sass
-                                    </div>
+                                <div className='technology-capsule'>
+                                    JavaScript
+                                </div>
+
+                                <div className='technology-capsule'>
+                                    Sass
+                                </div>
                             </div>
                         </Fade>
 
                         <div className='project-pictures'>
                             <SizeUp>
-                                <img src={shoes1} alt='screenshot_01'/>
+                                <img src={shoes1} alt='screenshot_01' />
                             </SizeUp>
                         </div>
                     </div>

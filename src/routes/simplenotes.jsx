@@ -6,7 +6,6 @@ import { BackBtn } from '../components/backbtn'
 import { GitBtn } from '../components/gitbtn'
 import Button from '../components/button'
 
-import background from '../assets/notes.webp'
 
 import notes1 from '../assets/notes1.webp'
 import notes2 from '../assets/notes2.webp'
@@ -14,6 +13,7 @@ import notes2 from '../assets/notes2.webp'
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'
 
+import video from '../assets/notes_video.mp4'
 
 export function Notes() {
 
@@ -27,7 +27,19 @@ export function Notes() {
                     <BackBtn />
                 </div>
 
-                <div className='projectpage-header' style={{ backgroundImage: `url(${background})` }}>
+                <div className='projectpage-header'
+                    style={{
+                        background: "rgb(51,51,51)",
+                        background: "linear-gradient(39deg, rgba(51,51,51,1) 0%, rgba(32,32,32,1) 100%)",
+                    }}
+                >
+                    <div className='video-wrapper'>
+                        <video autoPlay loop muted  className='background-video-2'>
+                            <source src={video} type="video/mp4"></source>
+                            Your browser does not support video tag.
+                        </video>
+                    </div>
+
                     <div className='header-content'>
                         <div className='buttons'>
                             <Button light link="https://github.com/lubosgarancovsky/MySimpleNotes" text="GitHub"></Button>

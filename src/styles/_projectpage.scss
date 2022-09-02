@@ -4,6 +4,49 @@
 }
 
 
+.background-video{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.background-video-3{
+    border-radius: max(2rem, 2vw) max(2rem, 2vw) 0 0;
+}
+
+@media (max-width: 920px) {
+    .background-video-3{
+        border-radius:0.5rem 0.5rem 0 0;
+    }
+}
+
+.video-wrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.video-wrapper-2{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .projectpage-header{
     width: 90vw;
     height: 80vh;
@@ -13,6 +56,9 @@
     padding: max(1rem, 1vw);
     display: flex;
     border-radius: max(2rem, 2vw);
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .header-content{

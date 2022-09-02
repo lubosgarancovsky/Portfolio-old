@@ -6,13 +6,15 @@ import { BackBtn } from '../components/backbtn'
 import { GitBtn } from '../components/gitbtn'
 import Button from '../components/button'
 
-import background from '../assets/lifesim.webp'
+//import background from '../assets/lifesim.webp'
 
 import lifesim1 from '../assets/lifesim1.webp'
 import lifesim2 from '../assets/lifesim2.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'
+
+import video from '../assets/lifesim_video.mp4'
 
 export function LifeSim() {
 
@@ -24,7 +26,11 @@ export function LifeSim() {
                 <div className='back-button'>
                     <BackBtn />
                 </div>
-                <div className='projectpage-header' style={{ backgroundImage: `url(${background})` }}>
+                <div className='projectpage-header'>
+                    <video autoPlay loop muted  className='background-video'>
+                        <source src={video} type="video/mp4"></source>
+                        Your browser does not support video tag.
+                    </video>
                     <div className='header-content'>
                         <div className='buttons'>
                             <Button light target="_blank" link="https://github.com/lubosgarancovsky/LifeSim-2" text="GitHub"></Button>

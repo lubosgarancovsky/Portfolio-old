@@ -4,15 +4,14 @@ import { Cursor } from '../components/cursor';
 
 import { BackBtn } from '../components/backbtn'
 import { GitBtn } from '../components/gitbtn'
-import { LinkBtn } from '../components/linkbtn'
 import Button from '../components/button'
 
-import background from '../assets/college.webp'
 
 import college1 from '../assets/college_1.webp'
 
 import {Fade} from '../animations/fade'
 import {SizeUp} from '../animations/sizeup'
+import video from '../assets/college_video.mp4'
 
 export function CollegeSearch() {
 
@@ -24,8 +23,19 @@ export function CollegeSearch() {
                 <div className='back-button'>
                     <BackBtn />
                 </div>
-                <div className='projectpage-header' style={{ backgroundImage: `url(${background})` }}>
-                    
+                <div className='projectpage-header'>
+                    <div className="video-wrapper-2"
+                    style={{
+                        background: "rgb(96,95,157)",
+                        background: "linear-gradient(39deg, rgba(96,95,157,1) 0%, rgba(132,132,189,1) 100%)",
+                    }}
+                    >
+                        <video autoPlay loop muted  className='background-video-3'>
+                            <source src={video} type="video/mp4"></source>
+                            Your browser does not support video tag.
+                        </video>
+                    </div>
+
                     <div className='header-content'>
                         <div className='buttons'>
                             <Button  light target="_blank" link="https://github.com/lubosgarancovsky/CollegeSearch" text="GitHub"></Button>
