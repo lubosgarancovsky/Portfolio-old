@@ -1,6 +1,17 @@
 .projectpage{
     width: 100vw;
     overflow-x: hidden;
+
+    .primary-btn{
+        background-color: $background;
+        color: $primary;
+        border: none;
+
+        &:hover{
+            background-color: $primary;
+            color: black;
+        }
+    }
 }
 
 

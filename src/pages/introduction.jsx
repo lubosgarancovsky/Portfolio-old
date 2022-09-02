@@ -25,10 +25,12 @@ export const Intro = () => {
                     <Fade dirrection='bottom'>
                         <p>
                             Hello, my name is Ľuboš Garančovský
-                            and I am a software developer. 
-                            I focus on front-end web development and web design. 
-                            I am passionate about writing code, designing and building software, 
-                            UI/UX design and much more.
+                            and I am a front-end web developer 
+                            with a quickly growing skillset, 
+                            high motivation and a strong desire for personal and professional growth.
+                            I enjoy putting my analytical thinking and creativity into use by creating
+                            stuff for the web.
+
                         </p>
                         <div className="button-w">
                             <Button text={"See my work"} img={arrow} link={"#Work"} />
