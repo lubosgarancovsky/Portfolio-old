@@ -1,6 +1,6 @@
 import React from 'react';
 import { SizeUp } from '../animations/sizeup';
-import { exploreEnter, exploreLeave } from '../hooks/hover';
+import { exploreEnter, exploreLeave } from '../scripts/hover';
 
 import Tilt from 'react-parallax-tilt';
 

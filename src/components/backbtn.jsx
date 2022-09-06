@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 import arrow from '../assets/icons/arrow2.svg';
 
 export function BackBtn() {

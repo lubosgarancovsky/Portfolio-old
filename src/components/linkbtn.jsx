@@ -1,5 +1,5 @@
 import React from 'react';
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 
 import link from '../assets/icons/link.svg'
 

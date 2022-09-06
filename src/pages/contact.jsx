@@ -5,7 +5,7 @@ import mail from '../assets/icons/mail.svg';
 import git from '../assets/icons/github.svg';
 import twitter from '../assets/icons/twitter.svg';
 import ig from '../assets/icons/instagram.svg';
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 import arrow from '../assets/icons/arrow.svg';
 
 export function Contact() {

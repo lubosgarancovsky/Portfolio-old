@@ -17,7 +17,7 @@ import sql from '../assets/skills/sql.svg'
 
 
 import { motion } from 'framer-motion';
-import { dragEnter, dragLeave } from '../hooks/hover';
+import { dragEnter, dragLeave } from '../scripts/hover';
 
 
 export function Skills() {

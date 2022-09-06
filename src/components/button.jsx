@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 
 export const Button = (props) => {
 

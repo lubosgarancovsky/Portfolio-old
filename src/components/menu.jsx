@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 import { motion, useAnimation } from "framer-motion"
 
 

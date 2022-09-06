@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import { handleHover, handleLeave } from '../hooks/hover';
+import { handleHover, handleLeave } from '../scripts/hover';
 
  export function ContactForm() {
     const form = useRef();
