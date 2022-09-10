@@ -35,25 +35,26 @@ export function Workpage() {
                     </ProjectBig>
                 </Link>
 
-                <Link to='/eshop'>
-                    <ProjectBig number={"02-05"} title={"E-shop"} year={"2022"} thumbnail={eshop}>
-                        <p>
-                            Simple eshop made with usage of useContext and session storage
-                        </p>
-                    </ProjectBig>
-                </Link>
                 <Link to='/collegesearch'>
-                    <ProjectBig number={"03-05"} title={"College search"}  year={"2022"} thumbnail={college}>
+                    <ProjectBig number={"02-05"} title={"College search"}  year={"2022"} thumbnail={college}>
                         <p>
                             Personal React project that fetches API of universities
                         </p>
                     </ProjectBig>
                 </Link>
 
-                <Link to='/project'>
-                    <ProjectBig number={"04-05"} title={"Life-Sim 2"} year={"2022"} thumbnail={lifesim}>
+                <Link to='/eshop'>
+                    <ProjectBig number={"03-05"} title={"E-shop"} year={"2022"} thumbnail={eshop}>
                         <p>
-                            Ecosystem simulation made in Python using PyGame library.
+                            Simple eshop made with usage of useContext and session storage
+                        </p>
+                    </ProjectBig>
+                </Link>
+
+                <Link to='/lifesim'>
+                    <ProjectBig number={"04-05"} title={"Life-Sim"} year={"2022"} thumbnail={lifesim}>
+                        <p>
+                            Ecosystem simulation made using vanilla JS and HTML canvas
                         </p>
                     </ProjectBig>
                 </Link>

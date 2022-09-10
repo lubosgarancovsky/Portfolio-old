@@ -20,7 +20,7 @@ root.render(
     <ScrollToTop />
     <Routes>
       <Route exact path="/" element={ <App />}></Route>
-      <Route exact path="/project" element={<LifeSim />}></Route>
+      <Route exact path="/lifesim" element={<LifeSim />}></Route>
       <Route exact path="/mysimplenotes" element={<Notes />}></Route>
       <Route exact path="/collegesearch" element={<CollegeSearch />}></Route>
       <Route exact path="/eshop" element={<Eshop />}></Route>

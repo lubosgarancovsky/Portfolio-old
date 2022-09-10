@@ -160,6 +160,10 @@
     }
 }
 
+.column-pictures{
+    grid-template-columns: 1fr !important;
+}
+
 @media only screen and (max-width:920px){
     .bottom-buttons{
         display: flex;
