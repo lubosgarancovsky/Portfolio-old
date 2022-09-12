@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 
 import html from '../assets/skills/html.svg'
@@ -23,21 +23,19 @@ import { dragEnter, dragLeave } from '../scripts/hover';
 export function Skills() {
 
     const [boundary, setBoundary] = useState(0)
+    const slider = useRef()
 
     useEffect(() => {
-        let wrapper = document.querySelector('.icons').clientWidth
-        let icon = document.querySelector('.skillicon').clientWidth
-        let width = wrapper - (icon * 3)
-        setBoundary(-width)
-
+        setBoundary(slider.current.scrollWidth - slider.current.offsetWidth)
     })
 
     return (
-        <div id="Skills" className='skillspage'>
+        <div id="Skills" className='skillspage' ref= {slider}>
             
                 <motion.div className='icons'
+                    
                     drag="x"
-                    dragConstraints={{ left: boundary, right: 0 }}
+                    dragConstraints={{ left: -boundary, right: 0 }}
                     dragElastic={0.5}
                     onMouseEnter={dragEnter} onMouseLeave={dragLeave}
                     initial={{x:'50%'}}
