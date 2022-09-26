@@ -1,30 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.93b476e2.css",
-    "main.js": "/Portfolio/static/js/main.0b2b37a9.js",
+    "main.js": "/Portfolio/static/js/main.4f7fa19f.js",
     "static/media/college_video.mp4": "/Portfolio/static/media/college_video.45c367bbcc2d0ef823cf.mp4",
     "static/media/lifesim_video.mp4": "/Portfolio/static/media/lifesim_video.1f26ad3f4ebd7750eb94.mp4",
     "static/media/shoes_video.mp4": "/Portfolio/static/media/shoes_video.eeaeddf5ee896f90fad3.mp4",
     "static/media/shoes.webp": "/Portfolio/static/media/shoes.b231b31d8e50273d2700.webp",
     "static/media/notes_video.mp4": "/Portfolio/static/media/notes_video.6343affdca3e6869d275.mp4",
-    "static/media/eshop_video.mp4": "/Portfolio/static/media/eshop_video.164c0430f43e3f55951a.mp4",
     "static/media/noise.gif": "/Portfolio/static/media/noise.93fe26ae97a4df3d4e67.gif",
     "static/media/shoes_1.webp": "/Portfolio/static/media/shoes_1.fc4f7e5bffb0b68bd8cd.webp",
     "static/media/fotka.webp": "/Portfolio/static/media/fotka.733bf9ae74fc169b226b.webp",
     "static/media/fotka.jpg": "/Portfolio/static/media/fotka.c6e6e0289af838d6559c.jpg",
     "static/media/cityHD.webp": "/Portfolio/static/media/cityHD.94bfb637ba5977be2167.webp",
     "static/media/notes.webp": "/Portfolio/static/media/notes.ca8a36f50da95a50cfb8.webp",
-    "static/media/E-shop_1.webp": "/Portfolio/static/media/E-shop_1.f47bc9cce3577ad78aae.webp",
     "static/media/lifesim1.webp": "/Portfolio/static/media/lifesim1.2bc51c28a98f03fbe45d.webp",
     "static/media/college_1.webp": "/Portfolio/static/media/college_1.916db491a868f5d76b21.webp",
     "static/media/lifesim2.webp": "/Portfolio/static/media/lifesim2.a21c35b694a663d4b7b0.webp",
     "static/media/college.webp": "/Portfolio/static/media/college.0164cbea44afe9f1899d.webp",
     "static/media/notes2.webp": "/Portfolio/static/media/notes2.4afec7dca0c0ed4dbdce.webp",
-    "static/media/eshop.webp": "/Portfolio/static/media/eshop.8af498b7347391a0107c.webp",
     "static/media/foto.webp": "/Portfolio/static/media/foto.46af54f2506b5267506e.webp",
     "static/media/notes1.webp": "/Portfolio/static/media/notes1.6cbd46f16790274a5bb5.webp",
     "static/media/lifesim.webp": "/Portfolio/static/media/lifesim.0f6457b8828a0e814500.webp",
-    "static/media/E-shop_2.webp": "/Portfolio/static/media/E-shop_2.7a714b728c365febd32a.webp",
     "static/media/react.svg": "/Portfolio/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/linux.svg": "/Portfolio/static/media/linux.1077ac3a018e4735ba179651097bd83d.svg",
     "static/media/python.svg": "/Portfolio/static/media/python.a38e5657954f1678f7dfd5ab286abb04.svg",
@@ -51,10 +47,10 @@
     "static/media/cpp.svg": "/Portfolio/static/media/cpp.623fc122dc8e193c8cf13a96e8f5e048.svg",
     "static/media/arrow2.svg": "/Portfolio/static/media/arrow2.f68a5f59f54c0a162221605c388d6640.svg",
     "main.93b476e2.css.map": "/Portfolio/static/css/main.93b476e2.css.map",
-    "main.0b2b37a9.js.map": "/Portfolio/static/js/main.0b2b37a9.js.map"
+    "main.4f7fa19f.js.map": "/Portfolio/static/js/main.4f7fa19f.js.map"
   },
   "entrypoints": [
     "static/css/main.93b476e2.css",
-    "static/js/main.0b2b37a9.js"
+    "static/js/main.4f7fa19f.js"
   ]
 }
